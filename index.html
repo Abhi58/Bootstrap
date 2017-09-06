@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Website Title & Description for Search Engine purposes -->
+      <title></title>
+      <meta name="description" content="">
+      <!-- Mobile viewport optimized -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="includes/css/styles.css" rel="stylesheet">
+      <!-- Include Modernizr in the head, before any other Javascript -->
+      <script src="includes/js/modernizr-2.6.2.min.js"></script>
+   </head>
+   <body>
+      <div class="container" id="main">
+         <nav>
+            <div class="navbar navbar-fixed-top navbar-default">
+               <div class="container">
+                  <button class="navbar-toggle navtoggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img src="images/gamezonelogo.png" alt="logo"></a>
+                  <div class="nav-collapse collapse navbar-responsive-collapse navcollapse">
+                     <form class="navbar-form pull-left">
+                        <input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+                        <button type="submit" class="btn btn-default btn-color"><span class="glyphicon glyphicon-search"></span></button>
+                     </form>
+                     <!-- end navbar-form -->
+                     <div class="text-color">
+                        <ul class="nav navbar-nav pull-right navbar-contents">
+                           <li >
+                              <a href="#">Home</a>
+                           </li>
+                           <li>
+                              <a href="#">Downloads</a>
+                           </li>
+                           <li>
+                              <a href="#">Wish List</a>
+                           </li>
+                           <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>  Your Name<strong class="caret"></strong></a>
+                              <ul class="dropdown-menu new-color">
+                                 <li>
+                                    <a href="#">Profile</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">Messages</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">Settings</a>
+                                 </li>
+                                 <li class="divider"></li>
+                                 <li>
+                                    <a href="#">Log Out</a>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <!-- end of nav bar-->
+         <div class="carousel slide" id="myCarousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+               <li class="active" data-slide-to=0 data-target=#myCarousel></li>
+               <li data-slide-to=1 data-target=#myCarousel></li>
+               <li data-slide-to=2 data-target=#myCarousel></li>
+            </ol>
+            <!--Wrappers-->
+            <div class="carousel-inner">
+               <div class="item active" id="slide1">
+               </div>
+               <div class="item" id="slide2">
+               </div>
+               <div class="item" id="slide3">
+               </div>
+            </div>
+            <!--Controls-->
+            <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+            <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+         </div>
+         <!--end of myCarousel-->
+         <div class="row" id="featuresHeading">
+            <div class="col-12">
+               <div class="color-change">
+                  <h2><a href="#">Featured Games<span class="glyphicon glyphicon-chevron-right glyphicon-size"></span></a></h2>
+               </div>
+            </div>
+            <!-- end col-12 -->
+         </div>
+         <!--end of featuresHeading-->
+         <div class=	"row" id="features">
+            <div class="col-sm-3 feature">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <div class="panel-title">
+                        <h4 class="weight">The Amazing Spider-Man 2</h4>
+                     </div>
+                  </div>
+                  <img src="images/2001.jpg" alt="No Image Found">
+                  <a href="#" class="btn btn-success btn-block">Click Here to Play</a>
+               </div>
+            </div>
+            <div class="col-sm-3 feature">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <div class="panel-title">
+                        <h4 class="weight">Counter-Strike</h4>
+                     </div>
+                  </div>
+                  <img src="images/2002.jpg" alt="No Image Found">
+                  <a href="#" class="btn btn-success btn-block">Click Here to Play</a>
+               </div>
+            </div>
+            <div class="col-sm-3 feature">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <div class="panel-title">
+                        <h4 class="weight">IPL 10</h4>
+                     </div>
+                  </div>
+                  <img src="images/2003.jpg" alt="No Image Found">
+                  <a href="#" class="btn btn-success btn-block">Click Here to Play</a>
+               </div>
+            </div>
+            <div class="col-sm-3 feature">
+               <div class="panel">
+                  <div class="panel-heading">
+                     <div class="panel-title">
+                        <h4 class="weight">FIFA</h4>
+                     </div>
+                  </div>
+                  <img src="images/2004.jpg" alt="No Image Found">
+                  <a href="#" class="btn btn-success btn-block">Click Here to Play</a>
+               </div>
+            </div>
+         </div>
+         <!--end of features-->
+         <div class="row" id="moreInfo">
+            <div class="col-lg-6">
+               <div class="color-change">
+                  <h2><a href="#">Latest News<span class="glyphicon glyphicon-chevron-right glyphicon-size"></span></a></h2>
+               </div>
+               <div class="col-sm-4 back-change">
+                  <img src="images/img1.jpg" alt="No Image Found">
+               </div>
+               <div class="col-sm-8 back-change">
+                  <h5 class="weight">Battlefield 3 and Bad Company 2 Free on Xbox One with EA Access</h5>
+                  <div class="line-border">
+                     <p>Electronic Arts announced today via the official Battlefield Twitter account that two new free games have been added to the EA Access Vault. Both Battlefield 3 (Buy ...</p>
+                     <a href="#">Read More</a>	
+                  </div>
+               </div>
+               <div class="col-sm-4 back-change">
+                  <img src="images/img2.jpg" alt="No Image Found">
+               </div>
+               <div class="col-sm-8 back-change">
+                  <h5 class="weight">Path of Exile System Requirements – PC</h5>
+                  <div class="line-border">
+                     <p >Path of Exile is a free Diablo like action role playing game. The Path of Exile System requirements detailed below include the minimum system requirements required t...</p>
+                     <a href="#">Read More</a>
+                  </div>
+               </div>
+               <div class="col-sm-4 back-change">
+                  <img src="images/img3.jpg" alt="No Image Found">
+               </div>
+               <div class="col-sm-8 back-change">
+                  <h5 class="weight">Wolfenstein: Enemy Territory PC & Mac System Requirements</h5>
+                  <div class="line-border">
+                     <p>Wolfenstein: Enemy Territory is a free to play multiplayer first person shooter from Splash Damage. The game is free to download and play on Windows PCs, Mac OS X and...</p>
+                     <a href="#">Read More</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="color-change">
+                        <h2><a href="#">Categories<span class="glyphicon glyphicon-chevron-right glyphicon-size"></span></a></h2>
+                     </div>
+                     <div class="col-sm-6 back-change">
+                        <ul>
+                           <li>
+                              <h5 class="weight"><a href="#">Adventure</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Arcade</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Action</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Combat</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Educational</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">First Person Shooter</a></h5>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-sm-6 back-change">
+                        <ul>
+                           <li>
+                              <h5 class="weight"><a href="#">Puzzle</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Strategy</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Sports</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Online Multiplayer</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Stealth Shooters</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Simulations</a></h5>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="color-change top-shift">
+                        <h2><a href="#">Top Games<span class="glyphicon glyphicon-chevron-right glyphicon-size"></span></a></h2>
+                     </div>
+                     <div class="col-sm-6 back-change">
+                        <ol>
+                           <h4 class="top-things">Today's Top Games</h4>
+                           <li>
+                              <h5 class="weight"><a href="#">8 Ball Pool</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Soccer Stars</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">FIFA 16</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">DeadPool</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Pro Evolution Soccer 2014</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Crisis 3</a></h5>
+                           </li>
+                        </ol>
+                     </div>
+                     <div class="col-sm-6 back-change">
+                        <ol>
+                           <h4 class="top-things">This Week's Top Games</h4>
+                           <li>
+                              <h5 class="weight"><a href="#">Far-Cry Primal</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Splinter Cell:Blacklist</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Batman:Arkham Knight</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">NFS:Speed</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Prince of Persia</a></h5>
+                           </li>
+                           <li>
+                              <h5 class="weight"><a href="#">Assasin's Creed III</a></h5>
+                           </li>
+                        </ol>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row" id="bigCallout">
+            <div class="col-12">
+               <div class="well boundary">
+                  <div class="page-header">
+                     <h3>Didn't Find What You're Looking For? <small>Tell Us What You're Searching For.</small></h3>
+                  </div>
+                  <!-- end page-header -->
+                  <p class="lead">Click the below button to contact us!</p>
+                  <a href="#myModal" role="button" class="btn btn-default btn-primary" data-toggle="modal">Contact Us  <span class="glyphicon glyphicon-hand-up"></span> </a>
+                  <div class="modal fade" id="myModal">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <button class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">Contact Us</h4>
+                           </div>
+                           <div class="modal-body">
+                              <p><small class="text-muted">Enter Your Information and State Your Message</small></p>
+                              <form class="form-horizontal">
+                                 <div class="form-group">
+                                    <label class="col-lg-2 control-label" for="inputName">Name</label>
+                                    <div class="col-lg-10">
+                                       <input class="form-control" id="inputName" placeholder="Name" type="text">
+                                    </div>
+                                 </div>
+                                 <div class="form-group">
+                                    <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                                    <div class="col-lg-10">
+                                       <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                                    </div>
+                                 </div>
+                                 <div class="form-group">
+                                    <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+                                    <div class="col-lg-10">
+                                       <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                                       <button class="btn btn-default pull-right" type="submit">Send</button>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end well -->
+            </div>
+            <!-- end col-12 -->
+         </div>
+         <!--end of bigCallout-->
+      </div>
+      <!--end of moreInfo-->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4 alignment">
+                  <h6>Copyright &copy;2021 gamezone</h6>
+               </div>
+               <div class="col-sm-4 alignment">
+                  <h5>Follow Us</h5>
+                  <ul class="fonts">
+                     <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                     <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                     <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                     <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+                  </ul>
+               </div>
+               <div class="col-sm-4 alignment">
+                  <h5>Navigation</h5>
+                  <ul class="unstyled">
+                     <li><a href="#">Home</a>/</li>
+                     <li><a href="#">About Us</a>/</li>
+                     <li><a href="#">Links</a>/</li>
+                     <li><a href="#">Contact</a></li>
+                  </ul>
+               </div>
+            </div>
+            <hr>
+            <div class="terms">
+               <p>Trade marks and images used in the design are the copyright of their respective owners and are used for demo purposes only</p>
+               <p><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></p>
+            </div>
+         </div>
+      </footer>
+      <!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+      <!-- All Javascript at the bottom of the page for faster page loading -->
+      <!-- First try for the online version of jQuery-->
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <!-- If no online access, fallback to our hardcoded version of jQuery -->
+      <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+      <!-- Bootstrap JS -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <!-- Custom JS -->
+      <script src="includes/js/script.js"></script>
+   </body>
+</html>
